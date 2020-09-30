@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BÀI TẬP 2(flex)</title>
+    <style>
+        .content{
+            height: auto;
+            width: 1320px;
+        }
+        .content-one{
+            display: flex;
+            height: 120px;
+        }
+        .content-one-flex{
+            flex: 1;
+            background-color: red;
+            margin: 1px;
+            border-radius: 5px;
+        }
+        .content-two{
+            display: flex;
+            height: 120px;
+        }
+        .content-two-flex{
+            flex: 2;
+            background-color: red;
+            margin: 1px;
+            border-radius: 5px;
+        }
+        .content-three{
+            display: flex;
+            height: 120px;
+        }
+        .content-three-flex{
+            flex: 3;
+            background-color: red;
+            margin: 1px;
+            border-radius: 5px;
+        }
+        .content-four{
+            display: flex;
+            height: 120px;
+        }
+        .content-four-flex{
+            flex: 4;
+            background-color: red;
+            margin: 1px;
+            border-radius: 5px;
+        }
+        .content-five{
+            display: flex;
+            height: 120px;
+        }
+        .content-five-flex{
+            flex: 6;
+            background-color: red;
+            margin: 1px;
+            border-radius: 5px;
+        }
+        .content-six{
+            display: flex;
+            height: 120px;
+        }
+        .content-six-left{
+            flex: 5;
+            background-color: red;
+            margin: 1px;
+            border-radius: 5px;
+        }
+        .content-six-right{
+            flex: 7;
+            background-color: red;
+            margin: 1px;
+            border-radius: 5px;
+        }
+        .content-seven{
+            display: flex;
+            height: 120px;
+        }
+        .content-seven-left{
+            flex: 4;
+            background-color: red;
+            margin: 1px;
+            border-radius: 5px;
+        }
+        .content-seven-right{
+            flex: 8;
+            background-color: red;
+            margin: 1px;
+            border-radius: 5px;
+        }
+        .content-eight{
+            display: flex;
+            height: 120px;
+        }
+        .content-eight-left{
+            flex: 3;
+            background-color: red;
+            margin: 1px;
+            border-radius: 5px;
+        }
+        .content-eight-right{
+            flex: 9;
+            background-color: red;
+            margin: 1px;
+            border-radius: 5px;
+        }
+        .content-nine{
+            display: flex;
+            height: 120px;
+        }
+        .content-nine-left{
+            flex: 2;
+            background-color: red;
+            margin: 1px;
+            border-radius: 5px;
+        }
+        .content-nine-right{
+            flex: 10;
+            background-color: red;
+            margin: 1px;
+            border-radius: 5px;
+        }
+        .content-ten{
+            display: flex;
+            height: 120px;
+        }
+        .content-ten-left{
+            flex: 1;
+            background-color: red;
+            margin: 1px;
+            border-radius: 5px;
+        }
+        .content-ten-right{
+            flex: 11;
+            background-color: red;
+            margin: 1px;
+            border-radius: 5px;
+        }
+        .content-eleven{
+            display: flex;
+            height: 120px;
+        }
+        .content-eleven-flex{
+            flex: 12;
+            background-color: red;
+            margin: 1px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="content-one">
+            <div class="content-one-flex">1/12</div>
+            <div class="content-one-flex">1/12</div>
+            <div class="content-one-flex">1/12</div>
+            <div class="content-one-flex">1/12</div>
+            <div class="content-one-flex">1/12</div>
+            <div class="content-one-flex">1/12</div>
+            <div class="content-one-flex">1/12</div>
+            <div class="content-one-flex">1/12</div>
+            <div class="content-one-flex">1/12</div>
+            <div class="content-one-flex">1/12</div>
+            <div class="content-one-flex">1/12</div>
+            <div class="content-one-flex">1/12</div>
+        </div>
+        <div class="content-two">
+            <div class="content-two-flex">2/12</div>
+            <div class="content-two-flex">2/12</div>
+            <div class="content-two-flex">2/12</div>
+            <div class="content-two-flex">2/12</div>
+            <div class="content-two-flex">2/12</div>
+            <div class="content-two-flex">2/12</div>
+        </div>
+        <div class="content-three">
+            <div class="content-three-flex">3/12</div>
+            <div class="content-three-flex">3/12</div>
+            <div class="content-three-flex">3/12</div>
+            <div class="content-three-flex">3/12</div>
+        </div>
+        <div class="content-four">
+            <div class="content-four-flex">4/12</div>
+            <div class="content-four-flex">4/12</div>
+            <div class="content-four-flex">4/12</div>
+        </div>
+        <div class="content-five">
+            <div class="content-five-flex">6/12</div>
+            <div class="content-five-flex">6/12</div>
+        </div>
+        <div class="content-six">
+            <div class="content-six-left">5/12</div>
+            <div class="content-six-right">7/12</div>
+        </div>
+        <div class="content-seven">
+            <div class="content-seven-left">4/12</div>
+            <div class="content-seven-right">8/12</div>
+        </div>
+        <div class="content-seven">
+            <div class="content-seven-left">4/12</div>
+            <div class="content-seven-right">8/12</div>
+        </div>
+        <div class="content-eight">
+            <div class="content-eight-left">3/12</div>
+            <div class="content-eight-right">9/12</div>
+        </div>
+        <div class="content-nine">
+            <div class="content-nine-left">2/12</div>
+            <div class="content-nine-right">10/12</div>
+        </div>
+        <div class="content-ten">
+            <div class="content-ten-left">1/12</div>
+            <div class="content-ten-right">11/12</div>
+        </div>
+        <div class="content-eleven">
+            <div class="content-eleven-flex">12/12</div>
+        </div>
+    </div>
+</body>
+</html>
