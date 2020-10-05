@@ -1,0 +1,44 @@
+*:not(a){
+    color: white;
+}
+body{
+    background-color: gray;
+}
+.title-1{
+   width: 100%;
+   height: 30px;
+   text-align: center;
+}
+.title-1 a{
+    color: blue;
+}
+.title-2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.menu{
+    background-color: salmon;
+    width: 80%;
+    height: 50px;
+    margin: 0px auto;
+}
+.menu div{
+    width: 100px;
+    height: 50px;
+    float: left;
+}
+.menu div p{
+    margin-left: 25px;
+}
+.menu div:nth-child(1){
+    background-color: black;
+}
+.menu .go-my-blog{
+    float: right;
+    width: 10%;
+}
+
+
+
+
