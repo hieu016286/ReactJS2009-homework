@@ -1,0 +1,53 @@
+.content{
+    width: 450px;
+    height: 600px;
+    margin: 100px auto;
+    position: relative;
+}
+.content-1,
+.content-2,
+.content-3,
+.content-4{
+    background-color: white;
+    width: 170px;
+    height: 220px;
+    box-shadow: 2px 2px 2px 2px gray;
+    text-align: center;
+    position: absolute;
+    opacity: 0.5;
+}
+.slide img{
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+}
+.slide p{
+    font-style: italic;
+}
+.content-1{
+    top: 90px;
+    left: 90px;
+    transform: rotate(-2deg);
+}
+.content-2{
+    top: 300px;
+    left: 150px;
+    transform: rotate(-8deg);
+}
+.content-3{
+    top: 230px;
+    left: 50px;
+    transform: rotate(-5deg);
+}
+.content-4{
+    top: 150px;
+    left: 200px;
+    transform: rotate(10deg);
+}
+.content-1:hover,
+.content-2:hover,
+.content-3:hover,
+.content-4:hover{
+    z-index: 1;
+    opacity: 1;
+}

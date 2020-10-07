@@ -1,0 +1,39 @@
+.content{
+    background-color: #5dd5ff;
+    width: 70%;
+    line-height: 50px;
+    margin: 50px auto;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+}
+.menu li{
+    flex: 1;
+    text-align: center;
+    position: relative;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+.menu li:hover{
+    background-color: black;
+}
+.sub-menu{
+    padding-left: 0px;
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    position: absolute;
+}
+.menu li:hover .sub-menu{
+    display: block;
+    background-color: black;
+}
+.sub-menu li:hover{
+    background-color: brown;
+}
