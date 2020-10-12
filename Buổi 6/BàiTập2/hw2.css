@@ -1,0 +1,191 @@
+.wrapper{
+    background-color: black;
+    width: 1000px;
+    height: auto;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+.header{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+}
+.content .item-1{
+    grid-area: item-1;
+}
+.content .item-2{
+    grid-area: item-2;
+}
+.content .item-3{
+    grid-area: item-3;
+}.content .item-4{
+    grid-area: item-4;
+}
+.content .item-5{
+    grid-area: item-5;
+}
+.content .item-6{
+    grid-area: item-6;
+}
+.content .item-7{
+    grid-area: item-7;
+}
+.content .item-8{
+    grid-area: item-8;
+}
+.content .item-9{
+    grid-area: item-9;
+}
+.content .item-10{
+    grid-area: item-10;
+}
+.content .item-11{
+    grid-area: item-11;
+}
+.content .item-12{
+    grid-area: item-12;
+}
+.content .item-13{
+    grid-area: item-13;
+}
+.content .item-14{
+    grid-area: item-14;
+}
+.content .item-15{
+    grid-area: item-15;
+}
+.content .item-16{
+    grid-area: item-16;
+}
+.content .item-17{
+    grid-area: item-17;
+}
+.content .item-18{
+    grid-area: item-18;
+}
+.content .item-19{
+    grid-area: item-19;
+}
+.content .item-20{
+    grid-area: item-20;
+}
+.content .item-21{
+    grid-area: item-21;
+}
+.content .item-22{
+    grid-area: item-22;
+}
+.content .item-23{
+    grid-area: item-23;
+}
+.content .item-24{
+    grid-area: item-24;
+}
+.content .item-25{
+    grid-area: item-25;
+}
+.content .item-26{
+    grid-area: item-26;
+}
+.content .item-27{
+    grid-area: item-27;
+}
+.content .item-28{
+    grid-area: item-28;
+}
+.content .item-29{
+    grid-area: item-29;
+}
+.content .item-30{
+    grid-area: item-30;
+}
+.content .item-31{
+    grid-area: item-31;
+}
+.content .item-32{
+    grid-area: item-32;
+}
+.content .item-33{
+    grid-area: item-33;
+}
+.content .item-34{
+    grid-area: item-34;
+}
+.content .item-35{
+    grid-area: item-35;
+}
+.content .item-36{
+    grid-area: item-36;
+}
+.content .item-37{
+    grid-area: item-37;
+}
+.content .item-38{
+    grid-area: item-38;
+}
+.content .item-39{
+    grid-area: item-39;
+}
+.content .item-40{
+    grid-area: item-40;
+}
+.content .item-41{
+    grid-area: item-41;
+}
+.content .item-42{
+    grid-area: item-42;
+}
+.content .item-43{
+    grid-area: item-43;
+}
+.content .item-44{
+    grid-area: item-44;
+}
+.content .item-45{
+    grid-area: item-45;
+}
+.content .item-46{
+    grid-area: item-46;
+}
+.content .item-47{
+    grid-area: item-47;
+}
+.content .item-48{
+    grid-area: item-48;
+}
+.content .item-49{
+    grid-area: item-49;
+}
+.content .item-50{
+    grid-area: item-50;
+}
+.content{
+    display: grid;
+    grid-template-areas: 'item-1 item-2 item-3 item-3 item-3 item-4 item-6'
+                         'item-5 item-5 item-3 item-3 item-3 item-7 item-8'
+                         'item-5 item-5 item-3 item-3 item-3 item-9 item-11'
+                         'item-10 item-10 item-3 item-3 item-3 item-12 item-14'
+                         'item-10 item-10 item-13 item-13 item-15 item-16 item-18'
+                         'item-19 item-20 item-13 item-13 item-17 item-17 item-17'
+                         'item-21 item-21 item-22 item-23 item-17 item-17 item-17'
+                         'item-21 item-21 item-24 item-25 item-17 item-17 item-17'
+                         'item-26 item-26 item-26 item-27 item-17 item-17 item-17'
+                         'item-26 item-26 item-26 item-28 item-29 item-30 item-31'
+                         'item-26 item-26 item-26 item-32 item-33 item-34 item-35'
+                         'item-26 item-26 item-26 item-36 item-37 item-38 item-39'
+                         'item-40 item-40 item-40 item-41 item-42 item-43 item-44'
+                         'item-40 item-40 item-40 item-45 item-45 item-45 item-46'
+                         'item-40 item-40 item-40 item-45 item-45 item-45 item-47'
+                         'item-40 item-40 item-40 item-45 item-45 item-45 item-48'
+                         'item-49 item-50 . item-45 item-45 item-45 .';
+    grid-gap: 10px;
+}
+.content > div{
+    background-color: #A0A0A0;
+    padding: 50px;
+    border-radius: 5px;
+    color: white;
+}
+.content div:nth-of-type(2n){
+    background-color: #606060;
+}
