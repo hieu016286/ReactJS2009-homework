@@ -1,0 +1,23 @@
+/* Ex-1 */
+#test {
+  width: 100px;
+  height: 100px;
+}
+
+
+/* Ex-4 */
+ul,li,#myUL {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+.nested {
+  display: none;
+}
+.active {
+  display: block;
+}
