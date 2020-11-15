@@ -1,0 +1,30 @@
+li ul {
+  display: none;
+}
+li {
+    cursor: pointer;
+    font-size: 30px;
+    list-style: none;
+    margin-top: 30px;
+    width: 400px;
+}
+.show {
+  display: block;
+}
+#menu {
+  background-color: burlywood;
+  width: 500px;
+  display: inline-block;
+  border-radius: 5px;
+}
+#menu li > ul {
+  padding: 0;
+     
+}
+#menu ul > li:hover {
+  background-color: yellow;
+  box-sizing: border-box;
+}
+#menu ul li ul li:hover {
+  font-weight: bold;
+}
